@@ -1,0 +1,15 @@
+.myReactSelect {
+    :global(.react-select__control) {
+        padding: 0 16px;
+        background-color: #F3F3F3;
+        border: none;
+        border-radius: 8px;
+    }
+    :global(.react-select__placeholder) {
+        color: #AEAEAE;
+    }
+    :global(.react-select__indicator-separator) {
+        display: none;
+    }
+
+}
